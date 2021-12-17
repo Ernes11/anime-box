@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  &__input {
+    width: 85%;
+    max-height: 68px;
+    .input {
+      max-height: 68px;
+      input {
+        max-height: 68px;
+        padding: 20px;
+      }
+    }
+  }
+  &__btn {
+    width: 10%;
+    .btn{
+      height: 68px;
+    }
+  }
+}

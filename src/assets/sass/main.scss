@@ -1,0 +1,25 @@
+@import './utils/variables';
+@import './utils/utils';
+
+
+@import './base/base';
+@import './base/typography';
+
+
+// Components
+@import './components/nav';
+@import './components/item';
+@import './components/buttons';
+@import './components/footer';
+@import './components/input';
+@import './components/search';
+@import './components/category';
+
+// Section
+
+@import './sections/news';
+@import './sections/discounts';
+@import './sections/about';
+@import './sections/ordering';
+@import './sections/goods';
+

@@ -1,0 +1,19 @@
+.goods {
+    padding-top: 55px;
+
+    &__subtitle {
+        text-align: center;
+        margin-top: 103px;
+        margin-bottom: 48px;
+    }
+&__items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    .product{
+        flex-basis: 24%;
+        margin-top: 20px;
+    }
+}
+}

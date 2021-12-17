@@ -1,0 +1,49 @@
+.discounts {
+  width: 100%;
+  &__blog {
+    min-height: calc(100vh - 103px);
+    width: 100%;
+    &_light {
+      background-color: $light;
+    }
+    &_dark {
+      background-color: $dark;
+      .discounts__title{
+          color: $light;
+      }
+      .discounts__img{
+          transform: scale(-1, 1);
+      }
+    }
+    &_danger {
+      background-color: $danger;
+    }
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: calc(100vh - 103px);
+  }
+  &__text {
+    max-width: 762px;
+    width: 100%;
+  }
+  &__descr{
+      margin-top: 42px;
+      padding-left: 10px;
+  }
+  &__img {
+    position: absolute;
+    bottom: -4px;
+    right: -70px;
+    img {
+      max-width: 600px;
+    }
+  }
+  &__btn{
+      max-width: 497px;
+     margin-top: 47px;
+
+  }
+}

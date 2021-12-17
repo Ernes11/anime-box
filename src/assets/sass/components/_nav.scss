@@ -1,0 +1,24 @@
+.nav {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    background-color: $light;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0px;
+  
+  }
+  &__item {
+    text-align: center;
+    max-width: 162px;
+    width: 100%;
+    color: $dark;
+    font-weight: 400;
+  }
+}

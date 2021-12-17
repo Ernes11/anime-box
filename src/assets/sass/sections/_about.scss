@@ -1,0 +1,46 @@
+.about {
+  &__bg {
+    background-image: url("../../images/about-bg.jpg");
+    width: 100%;
+    height: calc(100vh - 103px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-title {
+      color: $light;
+    }
+  }
+  &__title{
+      margin-top: 100px;
+      margin-bottom: 70px;
+      color: $dark;
+  }
+
+  &__history-top{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
+  }
+
+  &__history-img{
+      max-width: 546px;
+      width: 100%;
+
+
+      img{
+          width: 100%;
+          border-radius: 10px;
+          max-height: 100%;
+      }
+
+  }
+
+  &__history-descr{
+      width: 100%;
+      text-align: justify;
+  }
+}
+
